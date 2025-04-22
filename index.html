@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>NIELIT</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background-color: #fff;
+      padding: 10px 20px;
+      border-bottom: 1px solid #ccc;
+    }
+
+    .header-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 10px;
+    }
+
+    .header-top img {
+      height: 70px;
+    }
+
+    .header-left {
+      display: flex;
+      align-items: center;
+    }
+
+    .header-left div {
+      margin-left: 15px;
+    }
+
+    .header-left div div {
+      margin-bottom: 3px;
+    }
+
+    .header-right {
+      text-align: right;
+    }
+
+    .header-right img {
+      height: 60px;
+    }
+
+    .navbar ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      background-color: #002366;
+    }
+
+    .navbar li {
+      position: relative;
+    }
+    .navbar {
+        margin:auto;
+        width: 100%;
+    }
+
+    .navbar a {
+      display: block;
+      padding: 20px 50px;
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background-color 0.3s;
+    }
+
+    .navbar a:hover {
+      background-color: #001f4d;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #ffffff;
+      min-width: 180px;
+      box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+
+    .dropdown-content a {
+      color: #333;
+      padding: 10px 15px;
+      text-decoration: none;
+      display: block;
+    }
+
+    .dropdown-content a:hover {
+      background-color: #f1f1f1;
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+    .hero {
+      background-color: #e0e0e0;
+      text-align: center;
+      padding: 50px 20px;
+    }
+
+    .content {
+      padding: 20px;
+    }
+
+    footer {
+      background-color: #002366;
+      text-align: center;
+      padding: 10px;
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="header-top">
+      <div class="header-left">
+        <img src="https://student.nielit.gov.in/images/nielit-logo.png" alt="NIELIT Logo">
+        <div>
+          <div style="font-size: 20px; font-weight: bold;">रा.इ.सू.प्रौ.सं NIELIT</div>
+          <div style="font-size: 18px;">राष्ट्रीय इलेक्ट्रॉनिकी एवं सूचना प्रौद्योगिकी संस्थान, इम्फाल</div>
+          <div style="font-size: 14px;">National Institute of Electronics & Information Technology, Imphal</div>
+        </div>
+      </div>
+      <div class="header-right">
+        <div style="font-size: 16px; font-weight: bold;">Ministry of Electronics & Information Technology</div>
+        <div style="font-size: 14px;">Government of India</div>
+        <img src="https://www.india.gov.in/sites/upload_files/npi/files/coi_white.png" alt="Indian Emblem">
+      </div>
+    </div>
+    <nav class="navbar">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li class="dropdown">
+          <a href="#">About Us</a>
+          <div class="dropdown-content">
+            <a href="#">Vision</a>
+            <a href="#">Mission</a>
+            <a href="#">Acts and Rules</a>
+            <a href="#">Policies & guidelines</a>
+            <a href="#">NIELIT society</a>
+            <a href="#">NIELIT scheme</a>
+          </div>
+        </li>
+        <li class="dropdown">
+          <a href="#">Management</a>
+          <div class="dropdown-content">
+            <a href="#">Organization structure</a>
+            <a href="#">Management </a>
+          </div>
+        </li>
+        <li class="dropdown">
+            <a href="#">Services</a>
+            <div class="dropdown-content">
+              <a href="#">Online class</a>
+              <a href="#">Activities</a>
+            </div>
+        </li>
+        <li class="dropdown">
+            <a href="#">Student zone</a>
+            <div class="dropdown-content">
+              <a href="#">Results</a>
+              <a href="#">Download</a>
+              <a href="#">Admissions</a>
+            </div>
+        </li>
+        <li class="dropdown">
+            <a href="#">News</a>
+            <div class="dropdown-content">
+              <a href="#">NIELIT news</a>
+              <a href="#">Academic news</a>
+            </div>
+          </li>
+        <li><a href="#">Recruitment</a></li>
+        <li><a href="#">NIELIT HQ</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+  <br>
+  <marquee direction="left" scrollamount="10"><font size = "3" color = "#002366">23 April 2025,Admission Open
+  </font><hr width="215" color="#002366">
+  </marquee>
+  <br><br>
+  <main>
+    <section class="hero">
+      <h1>Welcome to NIELIT</h1>
+      <p>Your gateway to quality education and training.</p>
+    </section>
+
+    <section class="content">
+      <h2>Latest News</h2>
+      <ul>
+        <li><a href="#">Admission Open for 2025 Batch</a></li>
+        <li><a href="#">Upcoming Webinar on Cybersecurity</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 NIELIT. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
